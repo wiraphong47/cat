@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* โทนชมพูอ่อน */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    background-color: #f8bbd0 !important;
+    border: none;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d81b60;
+}
+
+.cat-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.cat-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn-edit, .btn-delete {
+    margin: 5px;
+    background: #f8bbd0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-edit:hover, .btn-delete:hover {
+    background: #f48fb1;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+a {
+    color: #d81b60;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
