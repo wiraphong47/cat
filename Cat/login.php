@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     // เช็ค username และ password
-    if ($username === "66040233103" && $password === "beem25472547m") {
+    if ($username === "66040233126" && $password === "saturday47") {
         $_SESSION["admin_logged_in"] = true; // ตั้งค่าสถานะ login
         header("Location: admin.php"); // ไปที่หน้า admin
         exit();

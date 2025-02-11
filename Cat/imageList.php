@@ -95,7 +95,7 @@ if ($conn->connect_error) {
         foreach ($imageList as $image) {
             $imageName = pathinfo($image, PATHINFO_FILENAME);
             // ปรับ URL ตามที่ต้องการ
-            $url = "https://hosting.udru.ac.th/{$username}/Cat/Cat/{$image}";
+            $url = "https://hosting.udru.ac.th/{$username}/cat/Cat/{$image}";
 
             // ทุกๆ 4 รูปภาพ เริ่มแถวใหม่
             if ($count % 4 == 0 && $count != 0) {
